@@ -49,7 +49,7 @@ class JsonShelterParserTests: XCTestCase {
     func testJsonShelterParserPerformance() {
         self.measure {
             let parser = JsonShelterParser(filePath: ShelterFilePath)
-            parser.parse()
+            let _ = parser.parse()
         }
     }
     
