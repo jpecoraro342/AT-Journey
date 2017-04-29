@@ -1,0 +1,555 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		15315A9E1D4C87AE0062FF06 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15315A9D1D4C87AE0062FF06 /* AppDelegate.swift */; };
+		15315AA01D4C87AE0062FF06 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15315A9F1D4C87AE0062FF06 /* ViewController.swift */; };
+		15315AA31D4C87AE0062FF06 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15315AA11D4C87AE0062FF06 /* Main.storyboard */; };
+		15315AA51D4C87AE0062FF06 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15315AA41D4C87AE0062FF06 /* Assets.xcassets */; };
+		15315AA81D4C87AE0062FF06 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15315AA61D4C87AE0062FF06 /* LaunchScreen.storyboard */; };
+		15315AB31D4C87AF0062FF06 /* JsonShelterParserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15315AB21D4C87AF0062FF06 /* JsonShelterParserTests.swift */; };
+		15315ABE1D4C87AF0062FF06 /* Appalachian_Trail_Data_GuideUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15315ABD1D4C87AF0062FF06 /* Appalachian_Trail_Data_GuideUITests.swift */; };
+		15315ACD1D4C87DB0062FF06 /* shelters.json in Resources */ = {isa = PBXBuildFile; fileRef = 15315ACC1D4C87DB0062FF06 /* shelters.json */; };
+		15C20D6C1D4D4DAA00F1AAD6 /* ShelterParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C20D6B1D4D4DAA00F1AAD6 /* ShelterParser.swift */; };
+		15C20D711D4D4E5F00F1AAD6 /* ShelterDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C20D701D4D4E5F00F1AAD6 /* ShelterDataModel.swift */; };
+		15C20D731D4D5EDF00F1AAD6 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C20D721D4D5EDF00F1AAD6 /* Constants.swift */; };
+		15C20D741D4D5F3C00F1AAD6 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C20D721D4D5EDF00F1AAD6 /* Constants.swift */; };
+		15C20D751D4D5F4800F1AAD6 /* ShelterDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C20D701D4D4E5F00F1AAD6 /* ShelterDataModel.swift */; };
+		15C20D761D4D5F4D00F1AAD6 /* ShelterParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C20D6B1D4D4DAA00F1AAD6 /* ShelterParser.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		15315AAF1D4C87AF0062FF06 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 15315A921D4C87AE0062FF06 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 15315A991D4C87AE0062FF06;
+			remoteInfo = "Appalachian Trail Data Guide";
+		};
+		15315ABA1D4C87AF0062FF06 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 15315A921D4C87AE0062FF06 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 15315A991D4C87AE0062FF06;
+			remoteInfo = "Appalachian Trail Data Guide";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		15315A9A1D4C87AE0062FF06 /* Appalachian Trail Data Guide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Appalachian Trail Data Guide.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		15315A9D1D4C87AE0062FF06 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		15315A9F1D4C87AE0062FF06 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		15315AA21D4C87AE0062FF06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		15315AA41D4C87AE0062FF06 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		15315AA71D4C87AE0062FF06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		15315AA91D4C87AE0062FF06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15315AAE1D4C87AF0062FF06 /* Appalachian Trail Data GuideTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Appalachian Trail Data GuideTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		15315AB21D4C87AF0062FF06 /* JsonShelterParserTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonShelterParserTests.swift; sourceTree = "<group>"; };
+		15315AB41D4C87AF0062FF06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15315AB91D4C87AF0062FF06 /* Appalachian Trail Data GuideUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Appalachian Trail Data GuideUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		15315ABD1D4C87AF0062FF06 /* Appalachian_Trail_Data_GuideUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Appalachian_Trail_Data_GuideUITests.swift; sourceTree = "<group>"; };
+		15315ABF1D4C87AF0062FF06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15315ACC1D4C87DB0062FF06 /* shelters.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = shelters.json; sourceTree = "<group>"; };
+		15C20D6B1D4D4DAA00F1AAD6 /* ShelterParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShelterParser.swift; sourceTree = "<group>"; };
+		15C20D701D4D4E5F00F1AAD6 /* ShelterDataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShelterDataModel.swift; sourceTree = "<group>"; };
+		15C20D721D4D5EDF00F1AAD6 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		15315A971D4C87AE0062FF06 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15315AAB1D4C87AF0062FF06 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15315AB61D4C87AF0062FF06 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		15315A911D4C87AE0062FF06 = {
+			isa = PBXGroup;
+			children = (
+				15315A9C1D4C87AE0062FF06 /* Appalachian Trail Data Guide */,
+				15315AB11D4C87AF0062FF06 /* Appalachian Trail Data GuideTests */,
+				15315ABC1D4C87AF0062FF06 /* Appalachian Trail Data GuideUITests */,
+				15315A9B1D4C87AE0062FF06 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		15315A9B1D4C87AE0062FF06 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				15315A9A1D4C87AE0062FF06 /* Appalachian Trail Data Guide.app */,
+				15315AAE1D4C87AF0062FF06 /* Appalachian Trail Data GuideTests.xctest */,
+				15315AB91D4C87AF0062FF06 /* Appalachian Trail Data GuideUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		15315A9C1D4C87AE0062FF06 /* Appalachian Trail Data Guide */ = {
+			isa = PBXGroup;
+			children = (
+				15C20D6F1D4D4DC900F1AAD6 /* Shelter Data Model */,
+				15315A9D1D4C87AE0062FF06 /* AppDelegate.swift */,
+				15315A9F1D4C87AE0062FF06 /* ViewController.swift */,
+				15C20D721D4D5EDF00F1AAD6 /* Constants.swift */,
+				15315AA11D4C87AE0062FF06 /* Main.storyboard */,
+				15315AA61D4C87AE0062FF06 /* LaunchScreen.storyboard */,
+				15315ACB1D4C87C60062FF06 /* Resources */,
+			);
+			path = "Appalachian Trail Data Guide";
+			sourceTree = "<group>";
+		};
+		15315AB11D4C87AF0062FF06 /* Appalachian Trail Data GuideTests */ = {
+			isa = PBXGroup;
+			children = (
+				15315AB21D4C87AF0062FF06 /* JsonShelterParserTests.swift */,
+				15315AB41D4C87AF0062FF06 /* Info.plist */,
+			);
+			path = "Appalachian Trail Data GuideTests";
+			sourceTree = "<group>";
+		};
+		15315ABC1D4C87AF0062FF06 /* Appalachian Trail Data GuideUITests */ = {
+			isa = PBXGroup;
+			children = (
+				15315ABD1D4C87AF0062FF06 /* Appalachian_Trail_Data_GuideUITests.swift */,
+				15315ABF1D4C87AF0062FF06 /* Info.plist */,
+			);
+			path = "Appalachian Trail Data GuideUITests";
+			sourceTree = "<group>";
+		};
+		15315ACB1D4C87C60062FF06 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				15315AA41D4C87AE0062FF06 /* Assets.xcassets */,
+				15315AA91D4C87AE0062FF06 /* Info.plist */,
+				15315ACC1D4C87DB0062FF06 /* shelters.json */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		15C20D6F1D4D4DC900F1AAD6 /* Shelter Data Model */ = {
+			isa = PBXGroup;
+			children = (
+				15C20D6B1D4D4DAA00F1AAD6 /* ShelterParser.swift */,
+				15C20D701D4D4E5F00F1AAD6 /* ShelterDataModel.swift */,
+			);
+			name = "Shelter Data Model";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		15315A991D4C87AE0062FF06 /* Appalachian Trail Data Guide */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15315AC21D4C87AF0062FF06 /* Build configuration list for PBXNativeTarget "Appalachian Trail Data Guide" */;
+			buildPhases = (
+				15315A961D4C87AE0062FF06 /* Sources */,
+				15315A971D4C87AE0062FF06 /* Frameworks */,
+				15315A981D4C87AE0062FF06 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Appalachian Trail Data Guide";
+			productName = "Appalachian Trail Data Guide";
+			productReference = 15315A9A1D4C87AE0062FF06 /* Appalachian Trail Data Guide.app */;
+			productType = "com.apple.product-type.application";
+		};
+		15315AAD1D4C87AF0062FF06 /* Appalachian Trail Data GuideTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15315AC51D4C87AF0062FF06 /* Build configuration list for PBXNativeTarget "Appalachian Trail Data GuideTests" */;
+			buildPhases = (
+				15315AAA1D4C87AF0062FF06 /* Sources */,
+				15315AAB1D4C87AF0062FF06 /* Frameworks */,
+				15315AAC1D4C87AF0062FF06 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				15315AB01D4C87AF0062FF06 /* PBXTargetDependency */,
+			);
+			name = "Appalachian Trail Data GuideTests";
+			productName = "Appalachian Trail Data GuideTests";
+			productReference = 15315AAE1D4C87AF0062FF06 /* Appalachian Trail Data GuideTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		15315AB81D4C87AF0062FF06 /* Appalachian Trail Data GuideUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15315AC81D4C87AF0062FF06 /* Build configuration list for PBXNativeTarget "Appalachian Trail Data GuideUITests" */;
+			buildPhases = (
+				15315AB51D4C87AF0062FF06 /* Sources */,
+				15315AB61D4C87AF0062FF06 /* Frameworks */,
+				15315AB71D4C87AF0062FF06 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				15315ABB1D4C87AF0062FF06 /* PBXTargetDependency */,
+			);
+			name = "Appalachian Trail Data GuideUITests";
+			productName = "Appalachian Trail Data GuideUITests";
+			productReference = 15315AB91D4C87AF0062FF06 /* Appalachian Trail Data GuideUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		15315A921D4C87AE0062FF06 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Joseph Pecoraro";
+				TargetAttributes = {
+					15315A991D4C87AE0062FF06 = {
+						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0830;
+					};
+					15315AAD1D4C87AF0062FF06 = {
+						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0830;
+						TestTargetID = 15315A991D4C87AE0062FF06;
+					};
+					15315AB81D4C87AF0062FF06 = {
+						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0830;
+						TestTargetID = 15315A991D4C87AE0062FF06;
+					};
+				};
+			};
+			buildConfigurationList = 15315A951D4C87AE0062FF06 /* Build configuration list for PBXProject "Appalachian Trail Data Guide" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 15315A911D4C87AE0062FF06;
+			productRefGroup = 15315A9B1D4C87AE0062FF06 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				15315A991D4C87AE0062FF06 /* Appalachian Trail Data Guide */,
+				15315AAD1D4C87AF0062FF06 /* Appalachian Trail Data GuideTests */,
+				15315AB81D4C87AF0062FF06 /* Appalachian Trail Data GuideUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		15315A981D4C87AE0062FF06 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15315AA81D4C87AE0062FF06 /* LaunchScreen.storyboard in Resources */,
+				15315AA51D4C87AE0062FF06 /* Assets.xcassets in Resources */,
+				15315AA31D4C87AE0062FF06 /* Main.storyboard in Resources */,
+				15315ACD1D4C87DB0062FF06 /* shelters.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15315AAC1D4C87AF0062FF06 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15315AB71D4C87AF0062FF06 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		15315A961D4C87AE0062FF06 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15C20D731D4D5EDF00F1AAD6 /* Constants.swift in Sources */,
+				15315AA01D4C87AE0062FF06 /* ViewController.swift in Sources */,
+				15C20D711D4D4E5F00F1AAD6 /* ShelterDataModel.swift in Sources */,
+				15315A9E1D4C87AE0062FF06 /* AppDelegate.swift in Sources */,
+				15C20D6C1D4D4DAA00F1AAD6 /* ShelterParser.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15315AAA1D4C87AF0062FF06 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15315AB31D4C87AF0062FF06 /* JsonShelterParserTests.swift in Sources */,
+				15C20D751D4D5F4800F1AAD6 /* ShelterDataModel.swift in Sources */,
+				15C20D761D4D5F4D00F1AAD6 /* ShelterParser.swift in Sources */,
+				15C20D741D4D5F3C00F1AAD6 /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15315AB51D4C87AF0062FF06 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15315ABE1D4C87AF0062FF06 /* Appalachian_Trail_Data_GuideUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		15315AB01D4C87AF0062FF06 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 15315A991D4C87AE0062FF06 /* Appalachian Trail Data Guide */;
+			targetProxy = 15315AAF1D4C87AF0062FF06 /* PBXContainerItemProxy */;
+		};
+		15315ABB1D4C87AF0062FF06 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 15315A991D4C87AE0062FF06 /* Appalachian Trail Data Guide */;
+			targetProxy = 15315ABA1D4C87AF0062FF06 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		15315AA11D4C87AE0062FF06 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				15315AA21D4C87AE0062FF06 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		15315AA61D4C87AE0062FF06 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				15315AA71D4C87AE0062FF06 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		15315AC01D4C87AF0062FF06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		15315AC11D4C87AF0062FF06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		15315AC31D4C87AF0062FF06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Appalachian Trail Data Guide/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.josephpecoraro.Appalachian-Trail-Data-Guide";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		15315AC41D4C87AF0062FF06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Appalachian Trail Data Guide/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.josephpecoraro.Appalachian-Trail-Data-Guide";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		15315AC61D4C87AF0062FF06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Appalachian Trail Data GuideTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.josephpecoraro.Appalachian-Trail-Data-GuideTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Appalachian Trail Data Guide.app/Appalachian Trail Data Guide";
+			};
+			name = Debug;
+		};
+		15315AC71D4C87AF0062FF06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Appalachian Trail Data GuideTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.josephpecoraro.Appalachian-Trail-Data-GuideTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Appalachian Trail Data Guide.app/Appalachian Trail Data Guide";
+			};
+			name = Release;
+		};
+		15315AC91D4C87AF0062FF06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Appalachian Trail Data GuideUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.josephpecoraro.Appalachian-Trail-Data-GuideUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Appalachian Trail Data Guide";
+			};
+			name = Debug;
+		};
+		15315ACA1D4C87AF0062FF06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Appalachian Trail Data GuideUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.josephpecoraro.Appalachian-Trail-Data-GuideUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Appalachian Trail Data Guide";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		15315A951D4C87AE0062FF06 /* Build configuration list for PBXProject "Appalachian Trail Data Guide" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15315AC01D4C87AF0062FF06 /* Debug */,
+				15315AC11D4C87AF0062FF06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		15315AC21D4C87AF0062FF06 /* Build configuration list for PBXNativeTarget "Appalachian Trail Data Guide" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15315AC31D4C87AF0062FF06 /* Debug */,
+				15315AC41D4C87AF0062FF06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		15315AC51D4C87AF0062FF06 /* Build configuration list for PBXNativeTarget "Appalachian Trail Data GuideTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15315AC61D4C87AF0062FF06 /* Debug */,
+				15315AC71D4C87AF0062FF06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		15315AC81D4C87AF0062FF06 /* Build configuration list for PBXNativeTarget "Appalachian Trail Data GuideUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15315AC91D4C87AF0062FF06 /* Debug */,
+				15315ACA1D4C87AF0062FF06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 15315A921D4C87AE0062FF06 /* Project object */;
+}
