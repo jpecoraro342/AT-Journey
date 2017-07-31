@@ -9,7 +9,7 @@
 import UIKit
 
 protocol ShelterParser {
-    func parse() -> [State]
+    func parse() -> [ShelterGroup]
 }
 
 class JsonShelterParser: NSObject, ShelterParser {
@@ -19,8 +19,8 @@ class JsonShelterParser: NSObject, ShelterParser {
         path = filePath
     }
     
-    func parse() -> [State] {
-        var states = [State]()
+    func parse() -> [ShelterGroup] {
+        var states = [ShelterGroup]()
         
         do {
             let json = try JSONSerialization.jsonObject(with: Data(contentsOf: URL(fileURLWithPath: self.path)), options: []) as! [Dictionary<String, AnyObject>]
@@ -33,7 +33,7 @@ class JsonShelterParser: NSObject, ShelterParser {
         return states
     }
     
-    private func getState(_ attributes: Dictionary<String, AnyObject>) -> State {
+    private func getState(_ attributes: Dictionary<String, AnyObject>) -> ShelterGroup {
         let name = attributes["section"] as! String
         var shelters = [Shelter]()
         
@@ -41,7 +41,7 @@ class JsonShelterParser: NSObject, ShelterParser {
             shelters = shelterArr.map({ self.getShelter($0) })
         }
         
-        return State(shelters: shelters, name: name)
+        return ShelterGroup(shelters: shelters, name: name)
     }
 
     private func getShelter(_ attributes: Dictionary<String, AnyObject>) -> Shelter {

@@ -9,14 +9,14 @@
 import UIKit
 
 class ShelterDataModel: NSObject {
-    let states: [State]
+    let states: [ShelterGroup]
     
     init(parser: ShelterParser) {
         states = parser.parse()
     }
 }
 
-struct State {
+struct ShelterGroup {
     let shelters: [Shelter]
     let name: String
 }
